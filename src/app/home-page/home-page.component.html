@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div>
+    <div>
+        <h2 class="ToDoHeader">
+            Quick To Do &nbsp;<span class="fas fa-edit"></span>
+        </h2>
+        <h5 class="header-desc">
+            This website lets you to create tasks with just few clicks.
+            <br>
+            You can edit, delete, and complete tasks at any time.
+        </h5>    
+    </div>
+    <div *ngIf="user.username==null" class="content">
+        <div class="a-links register">
+            <a href="register">Register</a>
+        </div>
+        <div class="a-links login">
+            <a href="login">Log in</a>
+        </div>
+    </div>
+</div>
+

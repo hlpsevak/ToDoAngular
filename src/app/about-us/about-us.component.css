@@ -1,0 +1,12 @@
+h2{
+    margin-top: 50px;
+    font-weight: bolder;
+    background-color: rgb(87, 189, 214);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+h6{
+    margin-top: 25px;
+}
